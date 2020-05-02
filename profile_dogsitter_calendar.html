@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8>
+	<title>index</title>
+	<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
+	
+	
+	<!--styles-->
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<!--
+	<link rel="stylesheet" type="text/css" href="css/jquery.formstyler.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.formstyler.theme.css" />
+	-->
+	<!--<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css" />-->
+	
+	
+	<!--libs-->
+	
+	<script src="js/libs/jquery-3.2.1.min.js"></script>
+	
+	<!--
+	<script src="https://cdn.jsdelivr.net/npm/gijgo@1.9.10/js/gijgo.min.js" type="text/javascript"></script>
+	<link href="https://cdn.jsdelivr.net/npm/gijgo@1.9.10/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+	-->
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+	<!--<script src="js/libs/owl.carousel.min.js"></script>-->
+	<!--<script src="js/libs/jquery.mask.min.js"></script>-->
+	<script src="js/libs/jquery.formstyler.min.js"></script>
+	<script src="js/libs/jquery.fancybox.min.js"></script>
+	<script src="js/libs/bootstrap-datepicker.min.js"></script>
+	
+	<!--general-->
+	<script src="js/common.js"></script>
+</head>
+	
+<body>
+    
+    <header style="background-image: url(images/temp/9.png)">
+        <div class="container">
+                        <div class="row header_top align-items-center">
+                            <div class="col-12 col-lg-4">
+                                <a href="/" class="logo">
+                                    <img src="images/logo.png" alt="logo">
+                                </a>
+                                <div class="btn_mob">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        
+                            <div class="col-12 col-lg-8 header_dd">
+                                <div class="row align-items-center d-block d-md-flex">
+                                    <div class="header_top-center col-12 col-md-5">
+                                        <a href="">
+                                            <span>
+                                                Поиск догситтера
+                                            </span>
+                                        </a>
+                                        <a href="">
+                                            <i class="icon-question"></i>
+                                            <span>
+                                                Помощь
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="header_top-right col-12 col-md-7 d-block d-md-flex">
+                                        <a href="">
+                                            Войти
+                                        </a>
+                                        <a href="">
+                                            Регистрация
+                                        </a>
+                                        <a href="" class="btn white">
+                                            <i class="icon-house"></i>
+                                            <span>
+                                                Стать догситтером
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                          
+                        
+                    </div>
+        </div>
+        <div class="header_mob" style="background-image: url(images/temp/9.png);">
+        <div class="container">
+            <div class="row"> 
+                <h1 class="header_h1 center col-12">
+                    Календарь
+                </h1>
+            
+            </div>
+        </div>
+        </div>
+        
+    </header>  
+    <div class="section profile_menu">
+        <div class="container">
+            <div class="row"> 
+                <div class="profile_menu-btn">
+                    <div>
+                    <span></span> 
+                    <span></span>
+                    <span></span>
+                    </div>
+                </div>
+                <div class="col-12 flex center">
+                    <a href=""> 
+                        <i class="icon-b-info"></i>
+                        Информация об аккаунте
+                    </a>
+                    <a href="">
+                        <i class="icon-b-house"></i>
+                        Цены
+                    </a>
+                    <a href="">
+                        <i class="icon-b-profile"></i>
+                        Профиль ситтера
+                    </a>
+                    <a href="">
+                        <i class="icon-b-dog"></i>
+                        Ваши собаки
+                    </a>
+                    <a href="" class="active">
+                        <i class="icon-b-announce"></i>
+                        Календарь
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section container">
+        <div class="row justify-content-center align-items-stretch">
+            <div class="col-12 col-md-4">
+                <div class="calendar-block"> 
+                    <div class="our_work-text">Пожалуйста, подтвердите свободные дни календаря для следующих двух недель.</div>
+                    <br>
+                    <br>
+                    <a href="" class="btn green green_text center" style="width: 100%;">
+                        Подтвердить даты
+                    </a>
+                </div>
+                <div class="calendar-block"> 
+                    <b>Свободные дни недели</b>
+                    <br>
+                    <br>
+                    <label>
+                        <input type="checkbox"><span class="checkbox_lit"></span>
+                        Понедельник
+                    </label>
+                    <label>
+                        <input type="checkbox"><span class="checkbox_lit"></span>
+                        Вторник
+                    </label>
+                    <label>
+                        <input type="checkbox"><span class="checkbox_lit"></span>
+                        Среда
+                    </label>
+                    <label>
+                        <input type="checkbox"><span class="checkbox_lit"></span>
+                        Четверг
+                    </label>
+                    <label>
+                        <input type="checkbox"><span class="checkbox_lit"></span>
+                        Пятница
+                    </label>
+                    <label>
+                        <input type="checkbox"><span class="checkbox_lit"></span>
+                        Суббота
+                    </label>
+                    <label>
+                        <input type="checkbox"><span class="checkbox_lit"></span>
+                        Воскресенье
+                    </label>
+                    
+                </div>
+                
+            </div>
+            <div class="col-12 col-md-8 ">
+                <div class="calendar-main">
+                    <div class="calendar_top flex justify-content-between align-items-center">
+                        <div class="calendar_top-date block_head">
+                            Июль 2018
+                        </div>
+                        <div class="calendar_top-nav flex align-items-center">
+                            <a class=" btn green green-text">
+                                Сегодня
+                            </a>
+                            <div class="calendar_top-nav-arr flex align-items-center">
+                                <a href="" class="left">
+                                    <i class="icon-arrow-thin">
+
+                                    </i>
+                                </a>
+                                <a href="" class="right">
+                                    <i class="icon-arrow-thin">
+
+                                    </i>
+                                </a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="calendar_head">
+                        <div class="calendar_row">
+                            <div>
+                                ПН
+                            </div>
+                            <div>
+                                ВТ
+                            </div>
+                            <div>
+                                СР
+                            </div>
+                            <div>
+                                ЧТ
+                            </div>
+                            <div>
+                                ПТ
+                            </div>
+                            <div class="green">
+                                СБ
+                            </div>
+                            <div class="green">
+                                ВС
+                            </div>
+                        </div>
+                    </div>
+                    <div class="calendar_body">
+                        <div class="calendar_row">
+                            <div>
+                                <span class="calendar_date grey">27</span>
+                            </div>
+                            <div>
+                                <span class="calendar_date grey">28</span>
+                            </div>
+                            <div>
+                                <span class="calendar_date grey">29</span>
+                            </div>
+                            <div>
+                                <span class="calendar_date grey">30</span>
+                            </div>
+                            <div>
+                                <span class="calendar_date grey">31</span>
+                            </div>
+                            <div class="green">
+                                <span class="calendar_date">1</span>
+                                <div class="calendar_day">
+                                    <i></i><div>0/1 <span>Резерв</span></div>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="calendar_date">2</span>
+                            </div>
+                        </div>
+                        <div class="calendar_row">
+                            <div>
+                                <span class="calendar_date">3</span>
+                            </div>
+                            <div>
+                                <span class="calendar_date">4</span>
+                            </div>
+                            <div>
+                                <span class="calendar_date">5</span>
+                            </div>
+                            <div>
+                                <span class="calendar_date">6</span>
+                            </div>
+                            <div>
+                                <span class="calendar_date">7</span>
+                            </div>
+                            <div class="grey">
+                                <span class="calendar_date">8</span>
+                                <div class="calendar_day"> 
+                                    <i class="red"></i><div>1/1 <span>Резерв</span></div>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="calendar_date">9</span>
+                            </div>
+                        </div>
+                        <div class="calendar_row">
+                            <div>
+                                <span class="calendar_date">10</span>
+                            </div>
+                            <div>
+                                <span class="calendar_date">11</span>
+                            </div>
+                            <div>
+                                <span class="calendar_date">12</span>
+                            </div>
+                            <div>
+                                <span class="calendar_date">13</span>
+                            </div>
+                            <div>
+                                <span class="calendar_date">14</span>
+                            </div>
+                            <div class="green">
+                                <span class="calendar_date">15</span>
+                                <div class="calendar_day">
+                                    <i></i><div>0/1 <span>Резерв</span></div>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="calendar_date">16</span>
+                            </div>
+                        </div>
+                        <div class="calendar_row">
+                            <div>
+                                <span class="calendar_date">17</span>
+                            </div>
+                            <div>
+                                <span class="calendar_date">18</span>
+                            </div>
+                            <div>
+                                <span class="calendar_date">19</span>
+                            </div>
+                            <div>
+                                <span class="calendar_date">20</span>
+                            </div>
+                            <div>
+                                <span class="calendar_date">21</span>
+                            </div>
+                            <div class="green">
+                                <span class="calendar_date">22</span>
+                                <div class="calendar_day">
+                                    <i></i><div>0/1 <span>Резерв</span></div>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="calendar_date">23</span>
+                            </div>
+                        </div>
+                        <div class="calendar_row">
+                            <div>
+                                <span class="calendar_date">24</span>
+                            </div>
+                            <div>
+                                <span class="calendar_date">25</span>
+                            </div>
+                            <div>
+                                <span class="calendar_date">26</span>
+                            </div>
+                            <div>
+                                <span class="calendar_date">27</span>
+                            </div>
+                            <div>
+                                <span class="calendar_date">28</span>
+                            </div>
+                            <div class="green">
+                                <span class="calendar_date">29</span>
+                                <div class="calendar_day">
+                                    <i></i><div>0/1 <span>Резерв</span></div>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="calendar_date grey">1</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+	<footer>
+	    <div class="container">
+	        <div class="row justify-content-between">
+	            <div class="col-12 col-md-8 row footer_left order-2 order-sm-1 ">
+	                <div class="col-12 col-sm-4 col-lg-4">
+	                    <div class="footer_head">
+	                        Узнать больше
+	                    </div>
+	                    <a href="">План защиты потребителей</a>
+	                    <a href="">Безопасность</a>
+	                </div>
+	                <div class="col-12 col-sm-4 col-lg-4">
+	                    <div class="footer_head">
+	                        Нужна помощь?
+	                    </div>
+	                    <a href="">Центр помощи</a>
+	                </div>
+	                <div class="col-12 col-sm-4 col-lg-4">
+	                    <div class="footer_head">
+	                        О Doglyad.com
+	                    </div>
+	                    <a href="">О нас</a>
+	                    <a href="">Контакты</a>
+	                    <a href="">Карьера</a>
+	                    <a href="">Партнеры</a>
+	                </div>
+	            </div>
+	            
+	            <div class="col-12 col-md-4 footer_last order-1 order-sm-2">
+	                Подпишись на полезную информацию<br>
+	                для своего любимца
+	                <form class="green_form">
+	                    <input type="email" placeholder="Ваш email">
+	                    <button type="submit">Подписаться</button>
+	                </form>
+	                <div class="footer_social">
+	                    <a href="" class=""><i class="icon-fb"></i></a>
+	                    <a href="" class=""><i class="icon-in"></i></a>
+	                    <a href="" class=""><i class="icon-li"></i></a>
+	                </div>
+	            </div>
+	            
+	        </div>
+	    </div>
+	</footer>
+</body>
+</html>

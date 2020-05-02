@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8>
+	<title>index</title>
+	<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
+	
+	
+	<!--styles-->
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<!--
+	<link rel="stylesheet" type="text/css" href="css/jquery.formstyler.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.formstyler.theme.css" />
+	-->
+	<!--<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css" />-->
+	
+	
+	<!--libs-->
+	
+	<script src="js/libs/jquery-3.2.1.min.js"></script>
+	
+	<!--
+	<script src="https://cdn.jsdelivr.net/npm/gijgo@1.9.10/js/gijgo.min.js" type="text/javascript"></script>
+	<link href="https://cdn.jsdelivr.net/npm/gijgo@1.9.10/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+	-->
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+	<!--<script src="js/libs/owl.carousel.min.js"></script>-->
+	<!--<script src="js/libs/jquery.mask.min.js"></script>-->
+	<script src="js/libs/jquery.formstyler.min.js"></script>
+	<script src="js/libs/jquery.fancybox.min.js"></script>
+	<script src="js/libs/bootstrap-datepicker.min.js"></script>
+	
+	<!--general-->
+	<script src="js/common.js"></script>
+</head>
+	
+<body>
+    <header>
+        <div class="container">
+            <div class="row header_top align-items-center">
+                    <div class="col-12 col-lg-4">
+                        <a href="/" class="logo">
+                            <img src="images/logo.png" alt="logo">
+                        </a>
+                        <div class="btn_mob">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                
+                    <div class="col-12 col-lg-8 header_dd">
+                        <div class="row align-items-center d-block d-md-flex">
+                            <div class="header_top-center col-12 col-md-5">
+                                <a href="">
+                                    <span>
+                                        Поиск догситтера
+                                    </span>
+                                </a>
+                                <a href="">
+                                    <i class="icon-question"></i>
+                                    <span>
+                                        Помощь
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="header_top-right col-12 col-md-7 d-block d-md-flex">
+                                <a href="">
+                                    Войти
+                                </a>
+                                <a href="">
+                                    Регистрация
+                                </a>
+                                <a href="" class="btn white">
+                                    <i class="icon-house"></i>
+                                    <span>
+                                        Стать догситтером
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                  
+                
+            </div>
+        </div>
+        <div class="header_mob" style="background-image: url(images/temp/1.png);">
+        <div class="container">
+            <div class="row banner_main">
+                    <div class="col-12 banner_main-left col-lg-6">
+                        <i class="icon-heart"></i>
+                        <div>
+                            <h1>
+                                Присмотрим <br class="d-lg-block">
+                                за вашим любимцем,<br class="d-lg-block">
+                                пока вы в <span>отъезде</span>
+                            </h1>
+                            <h2>
+                                Самая большая в стране сеть
+                                лучших догситтеров
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-12  col-lg-6">
+                      <form class="block header_main-form">
+                            <div class="block_head">
+                                Догситтинг в доме догситтера
+                            </div>
+                            <div class="block_content">
+                                <div class="row header_main-form-top">
+                                        <div class="label col-12 col-sm-6">
+                                            <div class="label_head">
+                                                Где искать
+                                            </div>
+                                            <input type="text" placeholder="Город и район">
+                                        </div>
+                                        <div class="label col-12 col-sm-6">
+                                            <div class="label_head">
+                                                Дата поддержки
+                                            </div>
+                                            <div class="row input-daterange">
+                                                <label class="col-6">
+                                                    <div class="input_data icon-calendar">
+                                                    <input type="text" class="data-js">
+                                                    </div>
+                                                </label>
+                                                <label class="col-6">
+                                                    <div class="input_data icon-calendar">
+                                                    <input type="text" class="data-js">
+                                                    </div>
+                                                </label>
+    
+                                            </div>
+                                        </div>
+    
+                                   
+                                </div>
+                                <div class="block label">
+                                    <div class="label_head">
+                                        Размер собаки
+                                    </div>
+                                    <div class="row header_main-label">
+                                        <label class="col-6 col-md-3">
+                                            <input type="checkbox">
+                                            <div class="checkbox">
+                                                <b>Маленький</b>
+                                                <span>
+                                                    до 10 кг
+                                                </span>
+                                            </div>
+                                        </label>
+                                        <label class="col-6 col-md-3">
+                                            <input type="checkbox">
+                                            <div class="checkbox">
+                                                <b>Средний</b>
+                                                <span>
+                                                    10-20 кг
+                                                </span>
+                                            </div>
+                                        </label>
+                                        <label class="col-6 col-md-3">
+                                            <input type="checkbox">
+                                            <div class="checkbox">
+                                                <b>Крупный</b>
+                                                <span>
+                                                    10-20 кг
+                                                </span>
+                                            </div>
+                                        </label>
+                                        <label class="col-6 col-md-3">
+                                            <input type="checkbox">
+                                            <div class="checkbox">
+                                                <b>Гигант</b>
+                                                <span>
+                                                    больше 40 кг
+                                                </span>
+                                            </div>
+                                        </label>
+    
+                                    </div>
+                                </div>
+     
+                            </div>
+                            <button type="submit" class="btn green  green_text">
+                                <i class="icon-search"></i>
+                                Поиск
+                            </button>
+                        </form>
+                    </div>
+                    
+            </div>
+        </div>
+        </div>
+    </header>
+    
+    <div class="section container">
+        <div class="section_head center">
+            Услуги для каждой собаки
+        </div>
+        
+        <div class="info row justify-content-between">
+            <div class="col-12 col-lg-6">
+                <div class="info_green">
+                    <div class="info_green-head">
+                        Мы принимаем меньше <b>20%</b> от потенциальных догситтеров
+                    </div>
+                    <div class="info_green-block">
+                        <ul class="list">
+                            <li>
+                                Все новые догситтеры проверяются на судимость
+                            </li>
+                            <li>
+                                Все догситтеры предоставляют подробный профиль и персональные данные
+                            </li>
+                            <li>
+                                Все догситтеры провена нашей командой
+                            </li>
+
+                        </ul>
+                        
+                    </div> 
+                    <a href="" class="btn green green_text">Найти своего догситтера</a>
+                </div>
+                <div class="info_bottom">
+                    Все сервисы, заказанные на сайте, имеют 24/7 Поддержку диспетчеров, Фотографии, Обновления и наш <a href="">План Защиты Потребителей</a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-5">
+                <div class="serv">
+                    <div class="serv_item">
+                        <i class="icon-dog"></i>
+                        <div>
+                            <div class="block_head">
+                                Догситтер
+                            </div>
+                            Идеально, если вам нужно присмотреть за собакой, пока вы в отъезде
+                        </div>
+                    </div>
+                    <div class="serv_item">
+                        <i class="icon-bowl"></i>
+                        <div>
+                            <div class="block_head">
+                                Накормим
+                            </div>
+                            У догситтеров всегда имеется вкусная и полезная еда, которая понравится вашему питомцу
+                        </div>
+                    </div>
+                    <div class="serv_item">
+                        <i class="icon-clock"></i>
+                        <div>
+                            <div class="block_head">
+                                Поддержка 24/7
+                            </div>
+                            Наш сервис предоставляет круглосуточную поддержку, даже ночью, если что-то пойдёт не так, то мы всегда поможем!
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section container">
+          
+        <div class="row rev_photo">
+            <div class="rev_photo-img">
+                <img src="images/temp/2.png" alt="alt">
+            </div>
+            <div class="rev_photo-text">
+                Мой догситтер присылал мне фотографии, информацию на протяжении дня и заботился о моей собаке как о своей.
+                <div>
+                    — Елена Ж.
+                </div>
+            </div>
+            <div class="rev_photo-info">
+                Елена Ж., г. Киев
+            </div>
+            
+        </div>
+    </div>
+    <div class="section container">
+        <div class="section_head center">
+            Мы заботимся о вашей собаке, как о своей
+        </div>
+        <div class="row our_work justify-content-around">
+            <div class="our_work-item col-12 col-sm-6 col-md-3">
+                <div class="our_work-number">1</div>
+                <div class="our_work-icon">
+                    <i class="icon-search"></i>
+                </div>
+                <div class="our_work-head block_head">
+                    Поиск
+                </div>
+                <div class="our_work-text">
+                    Читай проверенные отзывы
+и выбери лучшего догситтера
+                </div>
+            </div>
+            <div class="our_work-item col-12 col-sm-6 col-md-3">
+                <div class="our_work-number">2</div>
+                <div class="our_work-icon">
+                    <i class="icon-card"></i>
+                </div>
+                <div class="our_work-head block_head">
+                    Забронируй и оплати
+                </div>
+                <div class="our_work-text">
+                    Забронируй и оплати услугу
+безопасно через наш сайт
+                </div>
+            </div>
+            <div class="our_work-item col-12 col-sm-6 col-md-3">
+                <div class="our_work-number">3</div>
+                <div class="our_work-icon">
+                    <i class="icon-hand"></i>
+                </div>
+                <div class="our_work-head block_head">
+                    Наслаждайся отдыхом
+                </div>
+                <div class="our_work-text">
+                    Получи гарантию, 24/7 поддержку
+и план защиты потребителей
+                </div>
+            </div>
+            
+            
+            
+        </div>
+    </div>
+    <div class="section footer_top">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 section_head center">
+                    Тысячи лучших догситтеров в городах
+                </div>
+                
+                <div class="col-6 col-sm-6 col-md-3">
+                    <a href="">Белгород-Днестровский</a>
+                    <a href="">Винница</a>
+                    <a href="">Днепропетровск</a>
+                    <a href="">Донецк</a>
+                    <a href="">Дубно</a>
+                    <a href="">Запорожье</a>
+                    <a href="">Золочев</a>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3">
+                    <a href="">Киев</a>
+                    <a href="">Кировоград</a>
+                    <a href="">Кривой Рог</a>
+                    <a href="">Кролевец</a>
+                    <a href="">Луганск</a>
+                    <a href="">Луцк</a>
+                    <a href="">Львов</a>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3">
+                    <a href="">Макеевка</a>
+                    <a href="">Мариуполь</a>
+                    <a href="">Николаев</a>
+                    <a href="">Одесса</a>
+                    <a href="">Полтава</a>
+                    <a href="">Ровно</a>
+                    <a href="">Сумы</a>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3">
+                    <a href="">Трускавец</a>
+                    <a href="">Ужгород</a>
+                    <a href="">Харьков</a>
+                    <a href="">Херсон</a>
+                    <a href="">Хотин</a>
+                    <a href="">Черкассы</a>
+                    <a href="">Чернигов</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+	<footer>
+	    <div class="container">
+	        <div class="row justify-content-between">
+	            <div class="col-12 col-md-8 row footer_left order-2 order-sm-1 ">
+	                <div class="col-12 col-sm-4 col-lg-4">
+	                    <div class="footer_head">
+	                        Узнать больше
+	                    </div>
+	                    <a href="">План защиты потребителей</a>
+	                    <a href="">Безопасность</a>
+	                </div>
+	                <div class="col-12 col-sm-4 col-lg-4">
+	                    <div class="footer_head">
+	                        Нужна помощь?
+	                    </div>
+	                    <a href="">Центр помощи</a>
+	                </div>
+	                <div class="col-12 col-sm-4 col-lg-4">
+	                    <div class="footer_head">
+	                        О Doglyad.com
+	                    </div>
+	                    <a href="">О нас</a>
+	                    <a href="">Контакты</a>
+	                    <a href="">Карьера</a>
+	                    <a href="">Партнеры</a>
+	                </div>
+	            </div>
+	            
+	            <div class="col-12 col-md-4 footer_last order-1 order-sm-2">
+	                Подпишись на полезную информацию<br>
+	                для своего любимца
+	                <form class="green_form">
+	                    <input type="email" placeholder="Ваш email">
+	                    <button type="submit">Подписаться</button>
+	                </form>
+	                <div class="footer_social">
+	                    <a href="" class=""><i class="icon-fb"></i></a>
+	                    <a href="" class=""><i class="icon-in"></i></a>
+	                    <a href="" class=""><i class="icon-li"></i></a>
+	                </div>
+	            </div>
+	            
+	        </div>
+	    </div>
+	</footer>
+</body>
+</html>
